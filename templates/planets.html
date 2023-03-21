@@ -11,7 +11,7 @@
     <ul>
       {% for slug, planet in planets.items() %}
         <li>
-            <a href="/planets/{{ slug }}">{{ planets['name'] }}</a>
+            <a href="/{{slug}}">{{ planet['name'] }}</a>        
         </li>
       {% endfor %}
     </ul>
